@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "description": "my node study repo",
   "main": "index.js",
+  "author": "zcw",
+  "type": "module",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "study",
     "node"
   ],
-  "author": "zcw",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0"
+  }
 }
